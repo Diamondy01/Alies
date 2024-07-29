@@ -1,0 +1,19 @@
+name: Alies
+description: Simple Duels Plugin For AstralClub
+main: $main
+version: 1.0.0-SNAPSHOT
+author: Diamondy
+api-version: '1.20'
+commands:
+  duel:
+    description: Duel command
+    usage: /duel <player>
+    permission: alies.user
+  acceptduel:
+    description: Accept a duel request
+    usage: /acceptduel
+    permission: alies.user
+  denyduel:
+    description: Deny a duel request
+    usage: /denyduel
+    permission: alies.user
